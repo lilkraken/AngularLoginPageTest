@@ -1,0 +1,31 @@
+<!-- <ion-header [translucent]="true" >
+  <ion-toolbar>
+    <ion-title>
+      Sign In
+    </ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+
+<ion-content [fullscreen]="true">
+  <div class="header">
+    <label> Sign In</label>
+  </div>
+
+  <div class="mainContainer">
+    <div class="container">
+
+      <ion-input type="text" placeholder="Username" [(ngModel)]="Username"></ion-input>
+      <ion-input type="text" placeholder="Password" [(ngModel)]="Password"></ion-input>
+      <ion-label> <span> Forgot</span>  Username/Passwrod</ion-label>
+      <ion-button  (click)="login()" expand="block" shape="round">SIGN IN</ion-button>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    <label class="firstlabel"> Dont have an Account ?</label> <br>
+    <label class="secondlabel">SIGN UP NOW</label>
+  </div>
+
+</ion-content>

@@ -1,0 +1,108 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+
+//custom css
+.header{
+    height: 80px;
+    background: #30b53a;
+    text-align: center;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.header> label{
+    position: relative;
+    top: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+ion-input{
+    // width: 70%;
+    background: #e5e9eb;
+    border-radius: 20px;
+    text-align: center;
+    margin: 15px 6px;
+    color: black;
+    font-size: small;
+    font-weight: 700;
+    height: 40px;
+}
+
+
+ion-button{
+    // width: 70%;
+    margin: 15px 6px;
+    font-weight: 700;
+    --background: #30b53a;
+    height: 40px;
+}
+
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+  width: 80%;
+  margin-top: 25px;
+}
+
+ion-label{
+  font-size: 13px;
+  float: right;
+  margin-bottom: 30px;
+  color: #30b53a;
+
+}
+
+ion-label> span{
+  color: #9fa0a1;
+}
+
+.footer{
+  position: absolute;
+  bottom: 23px;
+  width: 100%;
+  text-align: center;
+
+}
+.firstlabel{
+    color: #9fa0a1;
+    font-size: small;
+}
+
+.secondlabel{
+    color: #30b53a;
+    font-size: small;
+    font-weight: 600;
+}
+
