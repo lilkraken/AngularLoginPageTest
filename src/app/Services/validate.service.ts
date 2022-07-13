@@ -20,10 +20,10 @@ export class ValidateService {
     return  new Observable((data) => {
 
       if (username == 'tester' && pswd == 'Password1') {
-        data.next('User logged In')
+        data.next('You are logged In!')
         
       } else {
-        data.next('Login Failed')
+        data.next('Credentials did not match, Please check your Username and Password!')
         
       }
 

@@ -17,6 +17,8 @@ export class HomePage {
     //console.log(this.Username,this.Password);
     this.validate.Validate(this.Username, this.Password).subscribe(res => {
       console.log(res);
+      alert(res)
+
     })
     
     
